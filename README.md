@@ -30,7 +30,7 @@ DreamWorld Festival is a website about the (made up) festival. It lets the user 
 - carousell
 
 ## Tasks
-- define theme, layout
+- define theme for website, layout
 - define style (typography, color palette)
 - create and connect files: index.html, style.css, index.js
 
