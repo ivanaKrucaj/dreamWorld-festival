@@ -2,6 +2,59 @@
     background-color: white;
 }
 
+/* HOME */
+/************************/
+
+/* Header */
+.header-bg {
+    background-image: url(/images/new-header-bg.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.header-logo {
+    margin: 10% 0 2%;
+    padding: 0;
+}
+
+/* .header-lineup{
+
+} */
+
+/* Lineup Carousel */
+/* .lineup-carousel-position {
+
+} */
+
+/* Sponsors */
+.sponsors-row {
+    margin: 3% 0;
+}
+
+/* Newsletter section */
+#newsletter-section {
+    background-color: #27A2FC;
+}
+
+.name-input, .email-input {
+    padding: 2% 1%;
+    border-radius: 7px;
+    margin:  4% 2% 5px;
+    border: none;
+}
+
+.email-input {
+    width: 63%;
+}
+
+.btn-subscribe {
+    padding: 2% 24%;
+    margin: 4% 0;
+    border-width: 2px;
+    color: white;
+    border-color: white;
+}
+
 /* LINEUP */
 /************************/
 #lineup-page {
