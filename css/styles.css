@@ -94,3 +94,18 @@
     display: flex;
     justify-content: flex-end;
 }
+
+/* IMPRESSIONS */
+/*************************/
+#impressions-page {
+    background-color: #27A2FC;
+}
+
+/* Ticket and Newsletter Buttons */
+.cta-text {
+    margin: 10% 0 0;
+}
+
+.impressions-btn {
+    margin: 4% 2% 12%;
+}
