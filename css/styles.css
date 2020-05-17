@@ -1,0 +1,55 @@
+/* Ticket Heading */
+#ticket-page h2 {
+    background-color: #E8286B;
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 2%;
+    display: inline-block;
+    width: 500px;;
+}
+
+
+/* Ticket cards */
+.card {
+    border: 1px solid #e3002a;
+}
+
+.card-deck {
+    padding: 8% 0 4%;
+}
+
+/* Ticket text */
+.text-position {
+    padding: 5% 0 7%;
+}
+
+/* Home Button */
+.btn-danger:hover {
+    background-color: white;
+    border-color: #E8286B;
+    color: #E8286B;
+}
+
+.btn-position {
+    padding: 10% 0;
+}
+
+/* Footer */
+#footer {
+    background-color: #FF9B37;
+}
+/* Social Media Icons  */
+#social-icons, .copyright {
+    display: flex;
+    justify-content: center;
+}
+
+#social-icons a {
+    padding: 1%;
+    color: black;
+}
+
+.footer-content {
+    padding: 1% 0;
+}

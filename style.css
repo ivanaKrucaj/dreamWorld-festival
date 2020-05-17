@@ -1,0 +1,19 @@
+/* header {
+    background-image: url();
+} */
+
+#home {
+    height: 600px;
+}
+
+#features {
+    height: 600px;
+}
+
+.hidden {
+    display: none;
+}
+
+.section {
+
+}
