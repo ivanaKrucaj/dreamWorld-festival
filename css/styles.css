@@ -1,3 +1,7 @@
+.container-white {
+    background-color: white;
+}
+
 /* Ticket Heading */
 #ticket-page h2 {
     background-color: #E8286B;
@@ -52,4 +56,41 @@
 
 .footer-content {
     padding: 1% 0;
+}
+
+
+/* ABOUT US */
+/****************************/
+#about-us-page {
+    background-image: url(https://www.nme.com/wp-content/uploads/2019/04/rexfeatures_5735121al_MAD_COOL_2000.jpg);
+    background-size: cover;
+}
+
+/* About us Images */
+.about-us-img {
+    width: 400px;
+    height: 250px;
+}
+
+/* About us Title */
+.about-us-title {
+    background-color: #E8286B;
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 2%;
+    display: inline-block;
+    width: 500px;
+    margin: 7% 0 5%;
+}
+
+.about-us-row {
+    margin: 2% 0 7%;
+}
+
+/* Ticket Button */
+.au-ticket-btn {
+    margin: 0 10% 10%;
+    display: flex;
+    justify-content: flex-end;
 }
