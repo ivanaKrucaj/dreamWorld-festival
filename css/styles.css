@@ -402,7 +402,34 @@
 /* IMPRESSIONS */
 /*************************/
 #impressions-page {
-    background-color: #27A2FC;
+    background-color: #0ca06c;
+}
+
+.photos-text {
+    font-weight: 600;
+    line-height: 2;
+    width: 90%;
+    margin-left: 4%;
+}
+
+/* Carousel */
+.impressions-year {
+    background-color: #2f4a90;
+    color: white;
+    display: inline-block;
+    padding: 1% 2%;
+    transform: skew(-10deg, 0deg);
+    margin: 3% 0 2% 4%;
+    font-weight: 600;
+}
+
+.carousel-resize {
+    width: 80%;
+    border-radius: 15px;
+}
+
+.impressions-img {
+    text-align: center;
 }
 
 /* Ticket and Newsletter Buttons */
