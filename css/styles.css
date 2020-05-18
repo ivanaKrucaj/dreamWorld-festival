@@ -327,30 +327,70 @@
 /* ABOUT US */
 /****************************/
 #about-us-page {
-    background-image: url(https://www.nme.com/wp-content/uploads/2019/04/rexfeatures_5735121al_MAD_COOL_2000.jpg);
+    background-color: #0ca06c;
     background-size: cover;
 }
 
 /* About us Images */
 .about-us-img {
-    width: 400px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 0;
+    border: 4px solid #ffd02c;
 }
 
 /* About us Title */
 .about-us-title {
-    background-color: #E8286B;
+    background-color: #d70a13;
     color: white;
     text-decoration: underline;
     text-underline-position: under;
-    padding-bottom: 2%;
+    padding: 1% 2%;
     display: inline-block;
-    width: 500px;
-    margin: 7% 0 5%;
+    margin: 10% 2% 5%;
+    transform: skew(10deg, 0deg);
+    font-style: italic;
+    font-weight: 600;
 }
 
 .about-us-row {
     margin: 2% 0 7%;
+}
+
+.about-us-row p {
+    line-height: 2;
+    text-align: justify;
+}
+
+.highlight {
+    background-color: #ffd02c;
+    padding: 1% 0;
+}
+
+/* FAQs */
+.faq-title {
+    margin: 0 2% 5%;
+}
+
+.faq-card {
+    border: none;
+}
+
+.faq-card-header {
+    background-color: white;
+}
+
+.faq-btn {
+    background-color: #ffd02c;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;;
+}
+
+.fa-toggle {
+    margin: 0 20px;
 }
 
 /* Ticket Button */
@@ -358,6 +398,11 @@
     margin: 0 10% 10%;
     display: flex;
     justify-content: flex-end;
+}
+
+.btn-bold {
+    font-weight: 600;
+    padding: 1% 4%;
 }
 
 /* IMPRESSIONS */
