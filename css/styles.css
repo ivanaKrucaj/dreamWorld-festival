@@ -221,9 +221,8 @@
 /* LINEUP */
 /************************/
 #lineup-page {
-    background-color: #27A2FC;
+    background-color: #2f4a90;
 }
-
 .row-lineup {
     margin: 3% 0;
 }
@@ -256,20 +255,10 @@
 
 /* TICKETS */
 /************************/
-/* Ticket Heading */
-#ticket-page h2 {
-    background-color: #E8286B;
-    color: white;
-    text-decoration: underline;
-    text-underline-position: under;
-    padding-bottom: 2%;
-    display: inline-block;
-    width: 500px;;
-}
-
 /* Ticket cards */
-.card {
-    border: 1px solid #e3002a;
+.card-ticket {
+    border: none;
+    background-color: #0ca06c;
 }
 
 .card-deck {
@@ -281,11 +270,25 @@
     padding: 5% 0 7%;
 }
 
+/* Ticket Button */
+.purchase-btn {
+    border-radius: 5px;
+    background-color: #ffd02c;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.purchase-btn:hover {
+    background-color: white;
+    color: #ffd02c;
+}
+
 /* Home Button */
 .btn-danger:hover {
     background-color: white;
-    border-color: #E8286B;
-    color: #E8286B;
+    border-color: #d70a13;
+    color: #d70a13;
 }
 
 .btn-position {

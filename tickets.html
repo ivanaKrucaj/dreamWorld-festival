@@ -18,47 +18,76 @@
 
 <body>
     <div id='ticket-page'>
+        <!-- Navigation Bar -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav-link-item bg-red">
+                            <a class="nav-link align-middle" href="#home-page">Home</a>
+                        </li>
+                        <li class="nav-item nav-link-item bg-green">
+                            <a class="nav-link align-middle active" href="#lineup-page">Lineup</a>
+                        </li>
+                        <li class="nav-item nav-link-item bg-blue">
+                            <a class="nav-link align-middle" href="#tickets-page">Tickets</a>
+                        </li>
+                        <li class="nav-item nav-link-item bg-red">
+                            <a class="nav-link align-middle" href="#about-us-page">About us</a>
+                        </li>
+                        <li class="nav-item nav-link-item bg-green">
+                            <a class="nav-link align-middle" href="#impressions-page">Impressions</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Ticket cards section -->
         <div id="ticket-cards" class="container">
-            <h2>Tickets</h2>
-            <h5>Don't snooze - get your tickets now!</h5>
+            <h4 class="about-us-title">Get your tickets.</h4>
             <div class="card-deck">
                 <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTjxIY_adI56SC2kW5hyGc82Zp2S8A9QStHXM_VFZv24Dnacqwe&usqp=CAU"
-                            class="card-img-top" alt="...">
+                    <div class="card card-ticket">
+                        <img src="/images/festival-img-12.jpg"
+                            class="card-img-top" alt="dancing-crowd">
                         <div class="card-body">
                             <h5 class="card-title">DreamDay Pass</h5>
                             <p class="card-text">Valid for one day</p>
                             <p class="card-text">General access</p>
                             <p class="card-text">Access to three DreamZones</p>
-                            <button type="button" class="btn btn-outline-warning btn-block">Buy</button>
+                            <button type="button" class="btn btn-outline-warning btn-block purchase-btn">Buy</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <img src="https://miro.medium.com/max/1280/1*s5_Z8UmsL1LOCFUhtLa70A.jpeg" class="card-img-top"
-                            alt="...">
+                    <div class="card card-ticket">
+                        <img src="/images/festival-img-20.jpg" class="card-img-top"
+                            alt="festival-site">
                         <div class="card-body">
                             <h5 class="card-title">DreamWeekend Pass</h5>
                             <p class="card-text">Valid for all days</p>
                             <p class="card-text">Access to all DreamZones</p>
                             <p class="card-text">Proin non vulputate nisl</p>
                             <p class="card-text"></p>
-                            <button type="button" class="btn btn-outline-warning btn-block">Buy</button>
+                            <button type="button" class="btn btn-outline-warning btn-block purchase-btn">Buy</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card">
-                        <img src="https://image.shutterstock.com/image-photo/group-beautiful-teens-arriving-summer-260nw-298115270.jpg"
+                    <div class="card card-ticket">
+                        <img src="/images/festival-img-25.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">DreamVille Package</h5>
                             <p class="card-text">Proin non vulputate nisl</p>
                             <p class="card-text">Proin non vulputate nisl</p>
                             <p class="card-text">Proin non vulputate nisl</p>
-                            <button type="button" class="btn btn-outline-warning btn-block">Buy</button>
+                            <button type="button" class="btn btn-outline-warning btn-block purchase-btn">Buy</button>
                         </div>
                     </div>
                 </div>
@@ -75,13 +104,13 @@
             
             <!-- Home button -->
             <div class="text-center btn-position">
-                <button type="button" class="btn btn-danger btn-lg">Go back home</button>
+                <button type="button" class="btn btn-danger btn-lg btn-bold">Home</button>
             </div>
 
         </div>
     </div>
 
-    <!-- Footer -->
+<!-- Footer -->
     <!----------not in page---------------------->
     <div id="footer" class="container-fluid">
         <div class="footer-content">
@@ -89,14 +118,16 @@
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></i></a>
                 <a href="https://twitter.com/explore" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-                <a href="https://www.youtube.com/" target="_blank"></a><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="https://open.spotify.com/" target="_blank"><i class="fab fa-spotify fa-lg"></i></a>
+                <a href="https://soundcloud.com/discover" target="_blank"><i class="fab fa-soundcloud fa-lg"></i></a>
                 <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i
                         class="fas fa-envelope fa-lg"></i></a>
             </div>
-            <p class="copyright">&copy; Copyright DreamWorld Media 2020</p>
+            <small class="copyright">&copy; 2020 DreamWorld Team. All rights reserved.</small>
         </div>
-
     </div>
+</body>
 
 </body>
 
