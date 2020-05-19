@@ -258,7 +258,6 @@
 /* Ticket cards */
 .card-ticket {
     border: none;
-    background-color: #0ca06c;
 }
 
 .card-deck {
@@ -273,15 +272,17 @@
 /* Ticket Button */
 .purchase-btn {
     border-radius: 5px;
-    background-color: #ffd02c;
+    background-color: #0ca06c;
     color: white;
     font-size: 25px;
     font-weight: 600;
+    border: none;
 }
 
 .purchase-btn:hover {
     background-color: white;
-    color: #ffd02c;
+    color: #0ca06c;
+    border: 1px solid #0ca06c;
 }
 
 /* Home Button */
@@ -419,17 +420,30 @@
     display: inline-block;
     padding: 1% 2%;
     transform: skew(-10deg, 0deg);
-    margin: 3% 0 2% 4%;
+    margin: 5% 0 2% 10%;
     font-weight: 600;
+}
+
+.carousel-content {
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-resize {
     width: 80%;
     border-radius: 15px;
+    height: 350px;
+    margin: 0 auto;
 }
 
 .impressions-img {
-    text-align: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
 }
 
 /* Ticket and Newsletter Buttons */
