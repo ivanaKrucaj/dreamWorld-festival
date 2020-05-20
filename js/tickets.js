@@ -1,23 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+function showTickets(){
+    document.getElementById('content').innerHTML = tickets;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tickets - DreamWorld Festival</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/theme.css">
-    <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/a337f7a40e.js" crossorigin="anonymous"></script>
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/styles.css">
-
-</head>
-
-<body>
-    <div id='ticket-page'>
+const tickets = `
+<div id='ticket-page'>
 
         <!-- Header section -->
         <section>
@@ -27,19 +13,13 @@
                     <div class="col-lg-6 col-md-4">
                         <img class="header-logo" src="./images/newest-logo.png" alt="festival-logo">
                     </div>
-                    <!-- Ticket Button -->
-                    <div class="col-lg-5 col-md-4">
-                        <div class="header-cta">
-                            <h3 class="lineup-text">Get your tickets now</h3>
-                            <button class="btn btn-danger btn-lg btn-bold" type="button">Tickets</button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
+
         <!-- Navigation Bar -->
         <section>
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -47,19 +27,19 @@
                 <div class="collapse navbar-collapse navbar-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item nav-link-item bg-red">
-                            <a class="nav-link align-middle" href="home.html">Home</a>
+                            <a onclick="showHome()" class="nav-link align-middle" href="#">Home</a>
                         </li>
                         <li class="nav-item nav-link-item bg-green">
-                            <a class="nav-link align-middle" href="lineup.html">Lineup</a>
+                            <a onclick="showLineup()" class="nav-link align-middle" href="#">Lineup</a>
                         </li>
                         <li class="nav-item nav-link-item bg-blue">
-                            <a class="nav-link align-middle active" href="#">Tickets</a>
+                            <a onclick="showTickets()" class="nav-link align-middle active" href="#">Tickets</a>
                         </li>
                         <li class="nav-item nav-link-item bg-red">
-                            <a class="nav-link align-middle" href="about-us.html">About us</a>
+                            <a onclick="showAboutUs()" class="nav-link align-middle" href="#">About us</a>
                         </li>
                         <li class="nav-item nav-link-item bg-green">
-                            <a class="nav-link align-middle" href="impressions.html">Impressions</a>
+                            <a onclick="showImpressions()" class="nav-link align-middle" href="#">Impressions</a>
                         </li>
                     </ul>
                 </div>
@@ -120,14 +100,13 @@
 
             <!-- Home button -->
             <div class="text-center btn-position">
-                <button type="button" class="btn btn-danger btn-lg btn-bold">Home</button>
+                <button onclick="showHome()" type="button" class="btn btn-danger btn-lg btn-bold">Home</button>
             </div>
 
         </div>
     </div>
 
     <!-- Footer -->
-    <!----------not in page---------------------->
     <div id="footer" class="container-fluid">
         <div class="footer-content">
             <div class="social-icons">
@@ -143,6 +122,4 @@
             <small class="copyright">&copy; 2020 DreamWorld Team. All rights reserved.</small>
         </div>
     </div>
-</body>
-
-</html>
+`
