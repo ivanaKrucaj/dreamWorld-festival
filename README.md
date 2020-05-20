@@ -30,11 +30,41 @@ DreamWorld Festival is a website about the (made up) festival. It lets the user 
 - carousell
 
 ## Tasks
-- define theme for website, layout
-- define style (typography, color palette)
-- create and connect files: index.html, style.css, index.js
+- define design and layout
+- create five html files (for each page one)
+- create Header section
+- create Navigation Bar
+- create Footer
+- create Home Page
+    - add main section containing teasers and lineup poster
+    - add testimonials carousel
+    - add sponsors section
+    - add call to action section with button
+    - add newsletter section with button
+- create Lineup Page
+    - add heading
+    - add rows of lineup images of artists
+    - add call to action button
+- create Tickets Page
+    - add heading
+    - add ticket cards with 'buy' buttons
+    - add disclaimer text
+    - add 'home page' button
+- create About us Page
+    - add heading
+    - add two sections with text and one img each
+    - add ticket button
+    - add FAQ collapse section
+- create Impressions Page
+    - add heading
+    - add short paragraph
+    - add three carousels with images and sliders with year headings
+- add resources to pages
+- add external links
+
 
 ## Links
+https://ivanakrucaj.github.io/dreamWorld-festival/home.html
 
 ### Trello
 https://trello.com/b/vVdrQ9TQ/poject-i
