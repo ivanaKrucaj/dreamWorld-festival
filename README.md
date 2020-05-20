@@ -1,33 +1,33 @@
 # dreamWorld-festival
 Project 1 - DreamWorld Festival website 
 ## 
-DreamWorld Festival is a website about the (made up) festival. It lets the user navigate through five different pages easily via links and buttons. The user can purchase tickets, check the lineup, visit a gallery with images of previous years, get more information about the festival, subscribe to the newsletter.
+DreamWorld Festival is a website about a (made up) festival. It lets the user navigate through five different pages easily via links and buttons. The user can explore ticket categories, check the lineup, visit a gallery with images of previous years, get more information about the festival, subscribe to the newsletter.
 
 ## MVP (DOM - CANVAS)
 - the website contains five pages (Home, Lineup, Tickets, Impressions, Contact us)
-- the user can purchase festival tickets from the site (via buttons)
+- the user can explore ticket categories from the site (via buttons)
 - subscribe to newsletter (via form)
 - navigate through gallery 
 - contact the festival via contact form
 
 ## Backlog
-
+- add sticky-top to navbar
 
 ## Data Structure
-### index.js
-- ticket button
-- carousell
+### home.js
+- showHome()
 
 ### lineup.js
+- showLineup()
 
 ### ticket.js
-- buttons
+- showTickets()
 
 ### aboutus.js
-- collapse
+- showAboutUs();
 
 ### impressions.js
-- carousell
+- showImpressions();
 
 ## Tasks
 - define design and layout
