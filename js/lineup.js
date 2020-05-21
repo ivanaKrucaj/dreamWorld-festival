@@ -111,7 +111,7 @@ const lineup = `
             <!-- Lineup row four -->
             <div class="row row-lineup">
                 <div class="col-lg-4 col-md-4 col-6">
-                    <a href="https://open.spotify.com/artist/3iOvXCl6edW5Um0fXEBRXy" target="_blank"><img
+                    <a href="https://open.spotify.com/artist/5aj3LEYRbuaabjjHkj5oE1" target="_blank"><img
                             class="lineup-img" src="./images/artists/death-in-vegas.jpeg" alt="death-in-vegas"></a>
                 </div>
 

@@ -1,17 +1,15 @@
-# dreamWorld-festival
-Project 1 - DreamWorld Festival website 
+# DreamWorld Festival
+Project 1 - *DreamWorld Festival* website 
 ## 
-DreamWorld Festival is a website about a (made up) festival. It lets the user navigate through five different pages easily via links and buttons. The user can explore ticket categories, check the lineup, visit a gallery with images of previous years, get more information about the festival, subscribe to the newsletter.
-
+*DreamWorld Festival* is a website about an imaginary festival. It lets the user navigate through five different pages easily via links and buttons. The user can explore ticket categories, check the lineup, visit a gallery page with images of previous festival years, get more information about the festival, subscribe to the newsletter.
+---
 ## MVP (DOM - CANVAS)
 - the website contains five pages (Home, Lineup, Tickets, Impressions, Contact us)
 - the user can explore ticket categories from the site (via buttons)
-- subscribe to newsletter (via form)
+- subscribe to Newsletter (via form)
 - navigate through gallery 
-- contact the festival via contact form
-
-## Backlog
-- add sticky-top to navbar
+- on click, be forwarded to artist's Spotify profile
+---
 
 ## Data Structure
 ### home.js
@@ -28,6 +26,7 @@ DreamWorld Festival is a website about a (made up) festival. It lets the user na
 
 ### impressions.js
 - showImpressions();
+---
 
 ## Tasks
 - define design and layout
@@ -59,17 +58,18 @@ DreamWorld Festival is a website about a (made up) festival. It lets the user na
     - add heading
     - add short paragraph
     - add three carousels with images and sliders with year headings
-- add resources to pages
-- add external links
-
+- add resources to pages (img)
+- add external links (Spotify)
+---
 
 ## Links
-https://ivanakrucaj.github.io/dreamWorld-festival/home.html
 
-### Trello
-https://trello.com/b/vVdrQ9TQ/poject-i
+### Trello / GitHub Projects
+[Trello](https://trello.com/b/vVdrQ9TQ/poject-i)
+[GithHub Projects](https://github.com/ivanaKrucaj/dreamWorld-festival/projects/1)
 
 ### GitHub
-https://github.com/ivanaKrucaj
+[GitHub](https://ivanakrucaj.github.io/dreamWorld-festival/home.html)
 
 ### Slides
+[Google Slides](https://docs.google.com/presentation/d/1T_X9pEG44PZDRoKAp7UOsR_F02ZRlXk9dstzT7NGqxQ/edit#slide=id.p)
