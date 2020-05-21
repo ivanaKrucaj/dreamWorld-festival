@@ -1,5 +1,6 @@
 function showImpressions(){
     document.getElementById('content').innerHTML = impressions;
+    document.getElementsByTagName('title')[0].innerHTML = 'Impressions - DreamWorld';
 }
 
 const impressions = `

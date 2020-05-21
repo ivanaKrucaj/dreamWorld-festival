@@ -1,5 +1,6 @@
 function showTickets(){
     document.getElementById('content').innerHTML = tickets;
+    document.getElementsByTagName('title')[0].innerHTML = 'Tickets - DreamWorld Festival';
 }
 
 const tickets = `

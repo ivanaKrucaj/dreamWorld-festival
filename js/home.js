@@ -5,6 +5,7 @@ window.addEventListener('load', function() {
 
 function showHome(){
     document.getElementById('content').innerHTML = home;
+    document.getElementsByTagName('title')[0].innerHTML = 'DreamWorld Festival';
 }
 
 const home = `

@@ -1,5 +1,6 @@
 function showAboutUs(){
     document.getElementById('content').innerHTML = aboutUs;
+    document.getElementsByTagName('title')[0].innerHTML = 'About us - DreamWorld Festival'
 }
 
 const aboutUs = `

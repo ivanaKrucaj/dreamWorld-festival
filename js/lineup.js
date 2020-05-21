@@ -1,5 +1,6 @@
 function showLineup(){
     document.getElementById('content').innerHTML = lineup;
+    document.getElementsByTagName('title')[0].innerHTML = 'Lineup - DreamWorld Festival';
 }
 
 const lineup = `
