@@ -8,6 +8,12 @@ body{
     padding: 0;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 2%;
+}
+
 /* HOME */
 /************************/
 
@@ -344,7 +350,7 @@ body{
 
 /* Lineup images */
 .lineup-img {
-    width: 100%;
+    width: 98%;
     height: 100%;
     border-radius: 10px;
     display: block;
