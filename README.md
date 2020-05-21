@@ -1,6 +1,5 @@
 # DreamWorld Festival
-Project 1 - *DreamWorld Festival* website 
-## 
+## Project 1 - *DreamWorld Festival* website 
 *DreamWorld Festival* is a website about an imaginary festival. It lets the user navigate through five different pages easily via links and buttons. The user can explore ticket categories, check the lineup, visit a gallery page with images of previous festival years, get more information about the festival, subscribe to the newsletter.
 ---
 ## MVP (DOM - CANVAS)
@@ -65,11 +64,11 @@ Project 1 - *DreamWorld Festival* website
 ## Links
 
 ### Trello / GitHub Projects
-[Trello](https://trello.com/b/vVdrQ9TQ/poject-i)
-[GithHub Projects](https://github.com/ivanaKrucaj/dreamWorld-festival/projects/1)
+- [Trello](https://trello.com/b/vVdrQ9TQ/poject-i)
+- [GithHub Projects](https://github.com/ivanaKrucaj/dreamWorld-festival/projects/1)
 
 ### GitHub
-[GitHub](https://ivanakrucaj.github.io/dreamWorld-festival/home.html)
+- [GitHub](https://ivanakrucaj.github.io/dreamWorld-festival/home.html)
 
 ### Slides
-[Google Slides](https://docs.google.com/presentation/d/1T_X9pEG44PZDRoKAp7UOsR_F02ZRlXk9dstzT7NGqxQ/edit#slide=id.p)
+- [Google Slides](https://docs.google.com/presentation/d/1T_X9pEG44PZDRoKAp7UOsR_F02ZRlXk9dstzT7NGqxQ/edit#slide=id.p)
