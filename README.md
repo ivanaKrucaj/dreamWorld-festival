@@ -3,7 +3,7 @@
 - *DreamWorld Festival* is a website about an imaginary festival. It lets the user navigate through five different pages easily via links and buttons. The user can explore ticket categories, check the lineup, visit a gallery page with images of previous festival years, get more information about the festival, subscribe to the newsletter.
 ---
 ## MVP (DOM - CANVAS)
-- the website contains five pages (Home, Lineup, Tickets, Impressions, Contact us)
+- the website contains five pages (Home, Lineup, Tickets, Impressions, About us)
 - the user can explore ticket categories from the site (via buttons)
 - subscribe to Newsletter (via form)
 - navigate through gallery 
