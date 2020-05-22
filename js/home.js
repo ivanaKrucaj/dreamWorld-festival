@@ -134,14 +134,14 @@ const home = `
             <!-- Testimonials -->
             <div class="centered">
                 <section class="testimonials">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <h2>&quot;DreamWorld Festival had a tremendous impact on my artistic life.&quot;</h2>
                                 <em>Iggy Pop</em>
                             </div>
                             <div class="carousel-item">
-                                <h2>&quot;Europe's finest.&quot;</h2>
+                                <h2>&quot;The world's best festival.&quot;</h2>
                                 <em>NME Magazine</em>
                             </div>
                             <div class="carousel-item">

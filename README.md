@@ -57,8 +57,9 @@
     - add heading
     - add short paragraph
     - add three carousels with images and sliders with year headings
+    - add ticket button
 - add resources to pages (img)
-- add external links (Spotify)
+- add external links (Spotify, social media channels)
 ---
 
 ## Links
@@ -68,7 +69,7 @@
 - [GithHub Projects](https://github.com/ivanaKrucaj/dreamWorld-festival/projects/1)
 
 ### GitHub
-- [GitHub](https://ivanakrucaj.github.io/dreamWorld-festival/home.html)
+- [GitHub](https://ivanakrucaj.github.io/dreamWorld-festival/)
 
 ### Slides
 - [Google Slides](https://docs.google.com/presentation/d/1T_X9pEG44PZDRoKAp7UOsR_F02ZRlXk9dstzT7NGqxQ/edit#slide=id.p)
